@@ -14,8 +14,8 @@ describe ("Login into smcuat app", function (){
     //  cy.goto('include','./Account/microland')
     // cy.get('.title').contains(/^b\w+/)   
     // cy.get('have.header').contains('Welcome to SmartCenter..!!!')
-     cy.get('[name="username"]').type('smcengineer')
-     cy.get('[name="password"]').type('microland@bng1')
+     cy.get('[name="username"]').type('')
+     cy.get('[name="password"]').type('')
     //  cy.contains('Sign me in').click
      cy.get('#btnSignIn').click()
     
